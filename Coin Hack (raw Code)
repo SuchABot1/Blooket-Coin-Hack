@@ -16,8 +16,8 @@ async function addTokens() {
             "authorization": localStorage.token
         },
         body: JSON.stringify({
-            name: await getName(myToken),
-            addedTokens: 1000,
+            name: GavinHatchell,
+            addedTokens: 100000,
             addedXp: 2000
         })
     });
